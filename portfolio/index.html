@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web design, hosting, and website management services portfolio">
+  <title>Web Services Portfolio — Design, Hosting, Management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top"> <span class="brand-mark">{ }</span> WebCraft Studio</a>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle navigation">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Design. Host. Manage.<br> Your complete website partner.</h1>
+          <p>I build fast, secure, and beautiful websites, deploy them to reliable hosting, and keep them running smoothly so you can focus on your business.</p>
+          <div class="hero-cta">
+            <a href="#services" class="btn btn-primary">Explore Services</a>
+            <a href="#work" class="btn btn-ghost">See Work</a>
+          </div>
+          <div class="hero-badges">
+            <span>Performance-first</span>
+            <span>Security & backups</span>
+            <span>Transparent pricing</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="card-grid">
+            <div class="card">Responsive UI</div>
+            <div class="card">SEO Ready</div>
+            <div class="card">Optimized Assets</div>
+            <div class="card">Managed Hosting</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <p class="section-subtitle">From concept to care — everything your website needs.</p>
+        <div class="cards three">
+          <article class="service-card">
+            <div class="icon">💻</div>
+            <h3>Website Design & Development</h3>
+            <p>Custom, responsive websites built with modern best practices. Includes content strategy, UX, and SEO-ready markup.</p>
+            <ul>
+              <li>Modern, accessible UI</li>
+              <li>Blazing-fast performance</li>
+              <li>CMS or static options</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="icon">☁️</div>
+            <h3>Hosting & Deployment</h3>
+            <p>Reliable hosting with SSL, CDN, and CI/CD setup. I handle domain, DNS, and automated deployments.</p>
+            <ul>
+              <li>SSL & global CDN</li>
+              <li>Automated backups</li>
+              <li>Monitoring & alerts</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="icon">🛠️</div>
+            <h3>Website Management</h3>
+            <p>Ongoing maintenance, updates, content changes, performance tuning, and monthly reports to keep things running.</p>
+            <ul>
+              <li>Security updates</li>
+              <li>Content & feature updates</li>
+              <li>Analytics & reporting</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Selected Work</h2>
+        <p class="section-subtitle">Recent projects and case studies.</p>
+        <div class="work-grid">
+          <a class="work-item" href="#" aria-label="Project One">
+            <div class="work-thumb"></div>
+            <div class="work-meta">
+              <h3>Project One</h3>
+              <p>Landing page redesign — +38% conversions</p>
+            </div>
+          </a>
+          <a class="work-item" href="#" aria-label="Project Two">
+            <div class="work-thumb"></div>
+            <div class="work-meta">
+              <h3>Project Two</h3>
+              <p>Headless CMS migration — 5x faster publishing</p>
+            </div>
+          </a>
+          <a class="work-item" href="#" aria-label="Project Three">
+            <div class="work-thumb"></div>
+            <div class="work-meta">
+              <h3>Project Three</h3>
+              <p>E‑commerce performance tuning — -42% LCP</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2 class="section-title">Pricing</h2>
+        <p class="section-subtitle">Clear and flexible. Pick what fits — mix and match freely.</p>
+        <div class="cards three">
+          <article class="price-card">
+            <h3>Launch</h3>
+            <p class="price"><span>$</span>999</p>
+            <ul>
+              <li>1–5 page site</li>
+              <li>Responsive design</li>
+              <li>Basic SEO</li>
+              <li>Standard deployment</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Start</a>
+          </article>
+          <article class="price-card popular">
+            <div class="badge">Popular</div>
+            <h3>Grow</h3>
+            <p class="price"><span>$</span>1999</p>
+            <ul>
+              <li>Up to 12 pages</li>
+              <li>Advanced SEO</li>
+              <li>CMS integration</li>
+              <li>Performance tuning</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Choose</a>
+          </article>
+          <article class="price-card">
+            <h3>Care</h3>
+            <p class="price"><span>$</span>99/mo</p>
+            <ul>
+              <li>Managed hosting</li>
+              <li>Updates & backups</li>
+              <li>Security monitoring</li>
+              <li>Monthly report</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Subscribe</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container about">
+        <div class="about-copy">
+          <h2 class="section-title">About</h2>
+          <p>Hi, I’m your end‑to‑end website partner. I blend design, development, and DevOps to deliver sites that are fast, secure, and easy to maintain. I’ve helped startups and small businesses grow with user‑centered design and reliable infrastructure.</p>
+          <ul class="bullets">
+            <li>Performance and accessibility first</li>
+            <li>Proactive maintenance and clear communication</li>
+            <li>Tooling that fits your team, not the other way around</li>
+          </ul>
+        </div>
+        <div class="about-facts">
+          <div class="stat"><span>50+ </span>projects shipped</div>
+          <div class="stat"><span>95%</span> client satisfaction</div>
+          <div class="stat"><span>24h</span> average response</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Tell me about your project. I’ll get back within one business day.</p>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <p class="field-error" data-for="name"></p>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <p class="field-error" data-for="email"></p>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <p class="field-error" data-for="message"></p>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send</button>
+            <a class="btn btn-ghost" href="mailto:hello@example.com?subject=Project%20Inquiry">Email instead</a>
+          </div>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> WebCraft Studio. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#top">Back to top</a>
+        <a href="#" rel="noopener">Privacy</a>
+        <a href="#" rel="noopener">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
